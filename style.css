@@ -1,0 +1,170 @@
+
+p{
+	font-size: 30px;
+	color: olive;
+
+} 
+
+h1{
+	font-size: 50px;
+	color: aqua;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black; 
+	width: 800px;
+	height:90px;
+} 
+
+h2{
+	font-size: 50px;
+	color: lime;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+width	
+} 
+h3{
+	font-size: 50px;
+	color: orange;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+} 
+
+h4{
+	font-size: 50px;
+	color: silver;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+} 
+h5{
+	font-size: 50px;
+	color: red;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+} 
+h6{
+	font-size: 50px;
+	color: fuchsia;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+h7{
+	font-size: 50px;
+	color: teal;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+} 
+h8{
+	font-size: 50px;
+	color: navy;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+} 
+table{
+	
+    border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	padding: 2px;
+    
+}
+
+th{
+    border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	background-color:aqua; 
+	padding: 25px;
+	font-size: 25px;
+}
+td{
+    border-width: 2px;к
+	border-style: solid;
+	border-color: teal;
+	background-color: lime;
+	padding: 25px;
+    font-size: 25px;
+}
+
+
+td:hover{
+	font-size: 30px;
+	background-color: orange;
+}
+img.a1:hover{
+	width: 800px;
+	height: 600px;
+	transition: 1s; 
+}
+
+img.a2:hover{
+	width: 800px;
+	height: 600px;
+	transition: 1s; 
+}
+i.fa{
+	font-size: 50px;
+	color: red;
+	
+} 
+
+i.fa:hover{
+	font-size: 200px;
+	color: blue;
+	transform:rotate(20deg);
+} 
+
+input:invalid { 
+    border: 3px solid red;
+}
+
+input:valid { 
+    border: 3px solid green;
+    background-color: olive;
+}
+
+.block-animation {
+width: 250px;
+padding: 20px;
+text-align: center;
+background-color: #2196F3;
+color: white;
+border-radius: 10px;
+font-size: 30px;
+transition: 1s linear;
+}
+
+.block-animation:hover {
+background-color: lightgreen;
+color: black;
+border-radius: 50px;
+}
+
+p {
+animation-duration: 3s;
+animation-name: slidein;
+}
+@keyframes slidein {
+from {
+margin-left: 100%;
+width: 300%;
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+}
+
+.block-1 {
+ 
+ background-color: blue;
+}
+
+}
